@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <div ng-app="n2App" ng-controller="n2Controller">
+
+        <p>Search : <input type="text" ng-model="searchWord" placeholder="Enter name here"><button ng-click="clearSearch()">Clear Search</button></p>
+ 
+        <table class="table">
+            <thead>
+                <tr><th>Title</th><th>Author</th></tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="x in hold">
+                    <td>{{x.by}}</td>
+                    <td><a target="_blank" href="{{x.url}}">{{x.title}}</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/news.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+c:\users\user\source\repos\N2\N2\bin\N2.dll.config
+c:\users\user\source\repos\N2\N2\bin\N2.dll
+c:\users\user\source\repos\N2\N2\bin\N2.pdb
+c:\users\user\source\repos\N2\N2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\user\source\repos\N2\N2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\user\source\repos\N2\N2\obj\Release\N2.csprojResolveAssemblyReference.cache
+c:\users\user\source\repos\N2\N2\obj\Release\N2.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\N2\N2\obj\Release\N2.dll
+c:\users\user\source\repos\N2\N2\obj\Release\N2.pdb
